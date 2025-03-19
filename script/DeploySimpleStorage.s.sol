@@ -10,7 +10,6 @@ contract DeploySimpleStorage is Script {
         vm.startBroadcast(); //vm cheatcodes only valid in foundry and will not work on other solidity frameworks
         SimpleStorage simpleStorage = new SimpleStorage();
         vm.stopBroadcast();
-
         return simpleStorage;
     }
 }
