@@ -13,4 +13,14 @@ docs/
 # Dotenv file
 .env
 
-lib/
+
+broadcast/
+
+
+.DS_Store
+zkout/
+
+anvil-zksync.log/
+
+
+.gas-snapshot
